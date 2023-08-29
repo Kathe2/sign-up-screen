@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/7e360bd80aceca3d01a2f93a9745a707\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.left{
+    
+    width: 308px;
+    height: 466px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:70px;
+    left: 150px;
+    background-color: #06a67ef3;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+}
+
+.left > h1{
+    font-weight: 213px;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.left > p{
+   
+    color: #ffffff;
+    font-weight: 212;
+    font-size: 12px;
+    width: 230px;
+    justify-content: center;
+    justify-items: center;
+    display: inline-block;
+    height: 90px;
+    text-align: center;   
+}
+
+.btn-signin{
+    width: 158px;
+    height: 39px;
+    border-radius: 20px;
+    border:solid #ffffff;
+    background-color: #06a67ef3;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.btn-signin:hover{
+    background: #068565f3;
+    transition: 1s;
+}
+
+.right{
+    
+    width: 429px;
+    height: 466px;
+    background-color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+    display: flexbox;
+    flex-direction: column;
+    position: relative;
+    bottom:397px;
+    left: 449px;
+    border-radius: 10px
+}
+
+.right > h1{
+    color: #38b593;
+    font-weight: 212px;
+    font-size: bold 26;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    top: 48px;
+}
+
+.right > img{
+    cursor: pointer;
+    position: relative;
+    left: 155px;
+    top: 40px;
+    width: 28px;
+    height: 28px;
+    justify-content: space-around;
+    display: inline;
+} 
+
+.right > p{
+    color: #9A9A9A;
+    font-weight: 163px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 46px;
+}
+
+.textfield > input{
+    border: none;
+    width: 242px;
+    height: 36px;
+    background-color: #f4f8f5;
+    color: #9A9A9A;
+    position: relative;
+    justify-content: space-between;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    left:90px;
+    top: 40px;
+    padding-left: 30px;
+
+    
+}
+
+.textfield > i{
+    position: relative;
+    left:101px ;
+    top: 67px;
+    z-index: 1;
+}
+
+.btn-signup{
+    border: none;
+    width: 158px;
+    height: 39px;
+    background-color: #38b593;
+    color: #ffffff;
+    border-radius: 20px;
+    position: relative;
+    top:60px;
+    left: 132px;
+    cursor: pointer;
+}
+
+.btn-signup:hover{
+    background-color: #068565f3;
+    transition: 1s;
+}
